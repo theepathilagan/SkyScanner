@@ -1,0 +1,146 @@
+body {
+  /* background-color: #2f86b9; */
+  /* background-image: url("./images/fotolia.jpg"); */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.colorMenu {
+  /* background-color: #284B63; */
+  margin-top: 16px;
+  margin-bottom: 15px;
+  height: 7.5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+}
+
+.navmenu {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.imageMenuButton {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.buttonClasicMenu {
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 10px;
+  color: black;
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeButtonMenu {
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 10px;
+  color: rgb(135, 7, 135);
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backgroundHeaderAiport {
+  background-color: #2f86b9;
+  height: 92.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.backgroundImageAirport {
+  background-image: url("./images/fotolia.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleHeader {
+  color: white;
+  font-size: 60px;
+  max-width: 1400px;
+  text-align:center;
+  padding-top: 30px;
+}
+
+.subTitleHeader {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.HeaderChoice {
+  background-color: white;
+  border-radius: 10px;
+  width: 700px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.searchirportBackGround {
+  margin-top: 50px;
+     margin-left: 246px;
+}
